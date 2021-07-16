@@ -37,7 +37,7 @@ const reducer = (state = initialState, action) => {
         case SET_ERROR:
         return {
             ...state,
-            errorMessage: 'Name, position and nickname are required.',
+            error: 'Name, position and nickname are required.',
         }
 
         case FETCH_FAIL:
